@@ -1,2 +1,3 @@
 ﻿  Application.cpp
+C:\Users\Ishraq\Desktop\Work\Repos\MIST\compiler_sessional\Compiler\src\SymbolTable.h(93): warning C4715: 'SymbolTable::lookup': not all control paths return a value
   Compiler.vcxproj -> C:\Users\Ishraq\Desktop\Work\Repos\MIST\compiler_sessional\Debug\Compiler.exe

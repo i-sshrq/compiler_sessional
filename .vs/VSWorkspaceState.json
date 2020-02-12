@@ -4,6 +4,6 @@
     "\\Compiler",
     "\\Compiler\\src"
   ],
-  "SelectedNode": "\\Compiler.sln",
+  "SelectedNode": "\\Compiler\\src\\SymbolTable.h",
   "PreviewInSolutionExplorer": false
 }
