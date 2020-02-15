@@ -1,3 +1,4 @@
 ﻿  Application.cpp
-C:\Users\Ishraq\Desktop\Work\Repos\MIST\compiler_sessional\Compiler\src\SymbolTable.h(93): warning C4715: 'SymbolTable::lookup': not all control paths return a value
-  Compiler.vcxproj -> C:\Users\Ishraq\Desktop\Work\Repos\MIST\compiler_sessional\Debug\Compiler.exe
+E:\Work\repos\Compiler\Compiler\src\Scanner.h(28,14): warning C4018: '<=': signed/unsigned mismatch
+E:\Work\repos\Compiler\Compiler\src\SymbolTable.h(93): warning C4715: 'SymbolTable::lookup': not all control paths return a value
+  Compiler.vcxproj -> E:\Work\repos\Compiler\Debug\Compiler.exe

@@ -141,7 +141,11 @@
     <ClCompile Include="src\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Scanner.h" />
     <ClInclude Include="src\SymbolTable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\input.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

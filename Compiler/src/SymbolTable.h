@@ -60,6 +60,7 @@ public:
 		/// TODO confusion
 		int key = hashFunc(sym);
 		table[key].push_back(SymbolInfo(sym, typ));
+		cout << "<" << sym << ", " << typ << "> inserted at position (" << key << ", " << table[key].size() - 1 << ")" << endl;
 	}
 
 	//PRINTs the entire table
@@ -88,7 +89,6 @@ public:
 					return make_pair(x, y);
 				}
 			}
-			
 		}
 	}
 
@@ -103,14 +103,11 @@ public:
 				y++;
 				if (it->getSymbol() == sym) {
 					table[x].erase(it);
-					cout << "Deleted from (" << x << ", " << y << ")" << endl;
+					cout << "Deleted from (" << x << ", " << y << ")" << endl << endl;
 					return;
 				}
 			}
 		}
 	}
 
-
-
-	
 };
