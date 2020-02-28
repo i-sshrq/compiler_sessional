@@ -5,15 +5,22 @@
 class Scanner {
 	SymbolTable* s1;
 	string inputPath;
-	string outputPath;
 public:
 	Scanner(SymbolTable* s) {
 		s1 = s;
 	}
-	void fileRead(string srcPath) {
+	Scanner(string srcPath) {
+		s1 = NULL;
 		inputPath = srcPath;
+	}
+	Scanner(SymbolTable* s, string srcPath) {
+		s1 = s;
+		inputPath = srcPath;
+	}
+	void assignment1() {
+	
 
-		ifstream inputFile(srcPath);
+		ifstream inputFile(inputPath);
 
 		vector <string> wordBuffer;
 		string line = "", word = "";
@@ -73,4 +80,28 @@ public:
 		}
 
 	}
+
+	void filterKeywords() {
+		vector <string> wordBuffer;
+		ifstream inputFile(inputPath);
+		string line;
+		char delimiters[] = " \t\n";
+		char* token;
+		char* next_token = NULL;
+		if (inputFile.is_open()) {
+			while (getline(inputFile, line)) {
+				token = strtok_s((char*)line.c_str(), delimiters, &next_token);
+				while (token){
+					wordBuffer.push_back(string(token));
+					token = strtok_s(NULL, delimiters, &next_token);
+				}
+			}
+		}
+		for (int i = 0; i < wordBuffer.size(); i++) {
+			cout << wordBuffer[i];
+		}
+
+
+	}
+
 };

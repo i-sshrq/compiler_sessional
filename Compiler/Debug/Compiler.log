@@ -1,4 +1,4 @@
 ﻿  Application.cpp
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(28,14): warning C4018: '<=': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\SymbolTable.h(93): warning C4715: 'SymbolTable::lookup': not all control paths return a value
-  Compiler.vcxproj -> E:\Work\repos\Compiler\Debug\Compiler.exe
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(35,14): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(100,21): warning C4018: '<': signed/unsigned mismatch
+  Compiler.vcxproj -> C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Debug\Compiler.exe
