@@ -2,6 +2,8 @@
 C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(23,21): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(31,24): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(39,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(66,14): warning C4018: '<=': signed/unsigned mismatch
-C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(144,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(57,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(85,14): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(166,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(204,21): warning C4018: '<': signed/unsigned mismatch
   Compiler.vcxproj -> C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Debug\Compiler.exe

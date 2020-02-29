@@ -1,6 +1,5 @@
 #pragma once
 #include "SymbolTable.h"
-#include <stack>
 #include <fstream>
 
 class Scanner {
@@ -47,13 +46,21 @@ public:
 		return string("");
 	}
 
-	string functionChecker(string token, string otherLeft, string otherRight) {
-		//Check functions by parenthesis matching
-		stack <char> stack_p;
-		string actualKeywords[] = { "if", "for", "while", "else if" };
+	//FUNCTION CHECKER, returns function name only
 
-
-
+	string functionChecker(string token) {
+		//specifically not counted as functions if matched with these
+		vector <string> actualKeywords = { "if", "for", "while", "else if" };
+		int pos = token.find("(");
+		if (pos != 0 && pos!=string::npos) {
+			string word = token.substr(0, pos);
+			for (int i = 0; i < actualKeywords.size(); i++) {
+				if (word == actualKeywords[i])
+					return string("");
+			}
+			return word;
+		}
+		return string("");
 	}
 
 
@@ -170,19 +177,18 @@ public:
 		char * next_token = NULL;
 		char delimiters[] = " \t\n";
 
-		vector < pair<string, int> > functions;
+		vector <pair<string, int> > functions;
 
 		if (inputFile.is_open()) {
 			while (getline(inputFile, line)) {
+				lineNumber++;
 				int pos = line.find("(");
 				if (pos != string::npos) {
-					lineNumber++;
+					
 					token = strtok_s((char*)line.c_str(), delimiters, &next_token);
 					while (token) {
 						//Parse the token
-						string otherRight = "},";
-						string otherLeft = "{,";
-						string temp = functionChecker(token, otherLeft, otherRight);
+						string temp = functionChecker(string(token));
 						if (temp.length() != 0) {
 							functions.push_back(make_pair(temp, lineNumber));
 						}
@@ -190,9 +196,16 @@ public:
 					}
 				}
 			}
-
 			inputFile.close();
 		}
+
+		//Tokenized, output to file in tsv
+		ofstream outFile("output_function.txt", ofstream::out);
+		for (int i = 0; i < functions.size(); i++) {
+			outFile << functions[i].first << "\t" << functions[i].second << endl;
+		}
+		outFile.close();
+
 	}
 	
 
