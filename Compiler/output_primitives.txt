@@ -1,0 +1,9 @@
+int	3
+int	3
+int	3
+int	15
+int	15
+int	15
+int	16
+int	31
+int	33

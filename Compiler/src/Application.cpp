@@ -9,6 +9,6 @@ using namespace std;
 int main() {
 	Scanner * s = new Scanner("input.txt");
 	s->filterKeywords();
-	s->filterFunctions();
+	s->filterPrimitives();
 	return 0;
 }
