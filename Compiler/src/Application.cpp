@@ -7,8 +7,9 @@
 using namespace std;
 
 int main() {
-	Scanner * s = new Scanner("input.txt");
-	s->filterKeywords();
-	s->filterPrimitives();
+	SymbolTable * s1 = new SymbolTable();
+	Scanner* s = new Scanner(s1, "input.txt");
+	s->parseIntoFiles();
+	s->putIntoSymbolTable();
 	return 0;
 }

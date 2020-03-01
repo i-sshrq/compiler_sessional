@@ -1,17 +1,22 @@
 ﻿  Application.cpp
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(26,21): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(34,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(41,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(46,25): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(56,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(74,22): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(90,21): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(98,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(105,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(110,25): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(120,24): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(150,14): warning C4018: '<=': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(231,21): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(269,21): warning C4018: '<': signed/unsigned mismatch
-E:\Work\repos\Compiler\Compiler\src\Scanner.h(308,21): warning C4018: '<': signed/unsigned mismatch
-  Compiler.vcxproj -> E:\Work\repos\Compiler\Debug\Compiler.exe
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(37,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(45,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(52,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(57,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(67,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(92,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(108,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(116,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(123,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(128,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(138,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(263,14): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(344,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(383,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(397,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(443,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(450,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(471,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(513,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Compiler\src\Scanner.h(171): warning C4715: 'Scanner::findOperatorInToken': not all control paths return a value
+  Compiler.vcxproj -> C:\Users\Ishraq\Documents\Work\Repos\MIST\compiler_sessional\Debug\Compiler.exe
